@@ -16,3 +16,8 @@ src/querydsl
 .gitkeep
 .shelf
 .application-local.yml
+.gradle/
+.idea/
+build/
+out/
+
