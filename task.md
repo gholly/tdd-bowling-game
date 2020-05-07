@@ -13,7 +13,9 @@
 given when then
 1. given 10轮中每轮击中0pin，共投20次， when 计算得分，then score 为 0
 2. given 10轮中每次击中1pin，共投20次， when 计算得分，then score 为 20
+
 3. given 首轮为补中，其余轮每轮每次击中1pin,共投20次， when 计算得分，then score 为 11+9*2=29
-3. given 首轮为全中，其余轮每轮每次击中1pin,共投20次， when 计算得分，then score 为 12+9*2=30
-4. given 10轮均为补中，10轮后的一次投球击中5，共投21次，when 计算得分，then score为195
-5. given 10轮均为全中，10轮后的2次投球均击中10，共投22次，when 计算得分，then score为300
+4. given 首轮为全中，其余轮每轮每次击中1pin,共投20次， when 计算得分，then score 为 12+9*2=30
+
+5. given 10轮均为补中，10轮后的一次投球击中5，共投21次，when 计算得分，then 150
+6. given 10轮均为全中，10轮后的2次投球均击中10，共投22次，when 计算得分，then score为300
